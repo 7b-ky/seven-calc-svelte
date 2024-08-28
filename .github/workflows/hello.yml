@@ -1,0 +1,8 @@
+name: Hello
+on: push
+jobs:
+  hello:
+    runs-on: ubntu-latest
+    steps:
+      - run: echo "Hello, worls"
+      - uses: actions/checkout@v4
